@@ -17,7 +17,7 @@ void velocityCalc(float v, float u, float a , float t){
 		printf("The final velocity is : %f",v);
 	}
 	else if (isnan(u)){
-		u = v - (a*t;
+		u = v - (a*t);
 		printf("The initial velocity is : %f",u);
 	}
 	else if (isnan(a)){
