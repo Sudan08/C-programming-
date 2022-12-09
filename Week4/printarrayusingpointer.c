@@ -15,5 +15,6 @@ void main(){
 	int *ptr = arr;
 	for (i=0;i<size;i++){
 	printf("%d ",*(ptr+i));
+
 	}
 }
