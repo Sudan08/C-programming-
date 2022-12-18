@@ -10,7 +10,7 @@ void main(){
 	for(i=0;i<arrlength;i++){
 		if(n == *(ptr+i)){
 			printf("The number %d is in the index %d",n,i);
-			flag=1;
+			flag=1; 
 		}
 	}
 	if(flag == 0 ){

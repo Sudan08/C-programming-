@@ -1,4 +1,4 @@
-#include <stdio.h>
+  #include <stdio.h>
 #include <stdlib.h>
 
 void main(){
@@ -18,5 +18,5 @@ void main(){
 	printf("\nThe int entered is : %d",*ptr1);
 	printf("\nThe char entered is : %c ",*ptr2);
 	
-	printf("\nThe float entered is : %f",*ptr3);
+	printf("\nThe float entered is : %.1f",*ptr3);
 }
