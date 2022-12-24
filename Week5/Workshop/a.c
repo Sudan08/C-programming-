@@ -12,15 +12,15 @@ void display();
 
 
 void main(){
-	struct Student s[10];
-	
+	struct Student s[2];
+	printf("Hello world");
 	read(s);
 	display(s);	
 }
 
-void read(struct Student s[10]){
+void read(struct Student s[2]){
 	int i;
-	for (i=0;i<10;i++){
+	for (i=0;i<2;i++){
 		printf("Enter name:");
 		scanf("%s",&s[i].name);
 		printf("Enter roll no:");
@@ -31,12 +31,12 @@ void read(struct Student s[10]){
 	
 }
 
-void display(struct Student s[10]){
+void display(struct Student s[2]){
 	int i;
-	for (i=0;i<10;i++){
-		printf("\n Name: %s",s[i].name);
-		printf("\n roll no: %d",s[i].rollno);
-		printf("\n marks: %f",s[i].marks);
+	for (i=0;i<2;i++){
+		printf("Enter name: %s",s[i].name);
+		printf("Enter roll no: %d",s[i].rollno);
+		printf("Enter marks: %f",s[i].marks);
 	}
 }
 
