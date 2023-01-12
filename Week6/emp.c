@@ -27,9 +27,9 @@ exit(-1);
 
 else {
 
-struct employee emp[5];
+struct employee emp[3];
 int i;
-for(i=0;i<5;i++){
+for(i=0;i<3;i++){
 	printf("enter data for employee %d",i+1);
 	printf("\nName");
 	scanf("%s",&emp[i].empName);
@@ -39,7 +39,7 @@ for(i=0;i<5;i++){
 	scanf("%d",&emp[i].salary);
 }
   
-	for(i=0;i<5;i++){
+	for(i=0;i<3;i++){
 	fprintf(fptr,"\nName : %s",emp[i].empName);
 	fprintf(fptr,"\nAge : %d",emp[i].age);
 	fprintf(fptr,"\nSalary : %d",emp[i].salary);

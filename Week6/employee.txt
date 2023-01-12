@@ -1,0 +1,10 @@
+
+Name : Sudan
+Age : 12
+Salary : 1200
+Name : daek
+Age : 34
+Salary : 340000
+Name : Biksj
+Age : 123
+Salary : 4333
